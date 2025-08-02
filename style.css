@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    display: grid;
+    grid-template: 1fr 5fr / 1fr 5fr;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: lightblue;
+}
+
+.topbar {
+    grid-column: 2;
+}
+
+.search {
+    display: flex;
+    padding: 1em;
+}
+
+.action-bar {
+    display: flex;
+    padding: 1em;
+}
