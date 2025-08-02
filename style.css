@@ -1,9 +1,16 @@
 @import url('https://cdn.jsdelivr.net/npm/@catppuccin/palette/css/catppuccin.css');
 
+@font-face {
+    font-family: jetbrains;
+    src: url("fonts/JetBrainsMonoNerdFontPropo-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: jetbrains, monospace;
     color: var(--ctp-mocha-base);
     --ctp-mocha-light: hsl(226deg, 64%, 98%);
 }
@@ -17,6 +24,14 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+}
+
+button {
+    background-color: var(--ctp-mocha-blue);
+    border: none;
+    border-radius: 0.7em;
+    padding-inline: 1.5em;
+    padding-block: 0.3em;
 }
 
 body {
