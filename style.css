@@ -52,6 +52,10 @@ body {
     color: var(--ctp-mocha-light)
 }
 
+.logo {
+    font-size: 150%;
+}
+
 .topbar {
     grid-column: 2;
     background-color: var(--ctp-mocha-light);
