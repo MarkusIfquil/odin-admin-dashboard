@@ -95,6 +95,20 @@ body {
     display: flex;
 }
 
+.welcome {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome p:nth-child(1) {
+    font-size: 70%;
+}
+
+.welcome p:nth-child(2) {
+    font-weight: bold;
+    font-size: 130%;
+}
+
 .action-bar .right {
     display: flex;
     gap: 1em;
