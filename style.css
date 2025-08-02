@@ -51,7 +51,7 @@ button {
 body {
     height: 100vh;
     display: grid;
-    grid-template: 1fr 10fr / 1fr 5fr;
+    grid-template: 1fr 10fr / 1fr 8fr;
 }
 
 .sidebar {
