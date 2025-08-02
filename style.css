@@ -153,7 +153,7 @@ body {
 }
 
 .project-cards {
-    height: 97%;
+    height: 93.5%;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 1em;
