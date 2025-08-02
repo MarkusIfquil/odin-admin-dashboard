@@ -62,7 +62,7 @@ body {
 }
 .search {
     display: flex;
-    padding: 1em;
+
     justify-content: space-between;
 }
 
@@ -120,6 +120,11 @@ body {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 1em;
+}
+
+.card {
+    box-shadow: -10px 0px var(--ctp-mocha-yellow);
+    border-radius: 0.5em;
 }
 
 .announcements {
