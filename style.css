@@ -42,6 +42,7 @@ ul {
 
 button {
     background-color: var(--ctp-mocha-blue);
+    color: var(--ctp-mocha-light);
     border: none;
     border-radius: 0.7em;
     height: 2.5em;
